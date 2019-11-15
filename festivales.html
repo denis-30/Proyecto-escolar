@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Barrio Chino festivales</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css"/>
+	<script src="prefixfree.min.js" type="text/javascript"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body id="fest">
+		
+	<nav> 
+		<ul class="menu">
+			<li><a href="index.html"><span lang="en">Home</span></a></li>
+			<li><a href="info.html">Info</a></li>
+			<li><a href="#">Cultura</a>
+				<ul>
+					<li><a href="zodiaco.html">Horoscopo</a></li>
+					<li><a href="recetas.html">Recetas</a></li>
+					<li><a href="simbolos.html">Simbolos</a></li>
+				</ul>
+			</li>
+			<li><a id="active" href="festivales.html">Festivales</a>
+				<ul>
+					<li><a href="#"><span lang="en">Moon festival</span></a></li>
+					<li><a href="#">Año nuevo</a></li>
+					<li><a href="#">Vesak</a></li>
+				</ul>
+			</li>
+			<li><a href="ruta.html">Recorrido</a></li>
+		</ul>
+	</nav>
+		
+	
+	<header> 
+	
+		<h1>Festivales</h1>
+	
+	</header>
+	
+	<main>
+	
+		
+		
+	<section> 
+		
+		<article class="primer"> 
+			<p>En china se celebran <strong>muchos festivales cada año</strong>. 
+			La mayoría de estos festivales tienen lugar en fechas 
+			importantes en el <strong>calendario lunar chino.</strong>
+			En el barrio se celebran algunos de estos festivales 
+			y los festejos incluyen gastronomía tradicional y danzas. 
+			</p>
+		</article>
+		
+		<article class="gal"> 
+			<h2>Galería</h2>
+
+			<div id="images-box">
+				<div class="holder">
+					<div id="image-1" class="image-lightbox">
+						<span class="close"><a href="#">X</a></span>
+						<img src="imagenes/festivales/cosasfest.jpg" alt="earth!"/>
+						<a class="expand" href="#image-1"></a>
+					</div>
+				</div>
+				<div class="holder">
+					<div id="image-2" class="image-lightbox">
+						<span class="close"><a href="#">x</a></span>
+						<img src="imagenes/festivales/dragonfest.jpg" alt="earth!"/>
+						<a class="expand" href="#image-2"></a>
+					</div>
+				</div>
+				<div class="holder">
+					<div id="image-3" class="image-lightbox">
+						<span class="close"><a href="#">X</a></span>
+						<img src="imagenes/festivales/dancefest.jpg" alt="earth!"/>
+						<a class="expand" href="#image-3"></a>
+					</div>
+				</div>
+			</div>
+		
+		</article>
+		
+		<article> 
+			
+			
+			<img src="imagenes/festivales/año_nuevo.png" alt="dragón de año nuevo"/>
+			
+			<h2 class="año">Año nuevo</h2>
+				
+					<p>El Año Nuevo chino es la festividad 
+						más importante del año 
+						De todos los festivales chinos, el Año Nuevo 
+						es para niños de todas las edades uno 
+						de los más queridos y esperados. </p>
+				
+		
+		</article>
+		
+		<article class="rueda"> 
+			
+			<img src="imagenes/festivales/vesak.png" alt="rueda del dharma"/>
+			
+			<h2>Vesak</h2>
+				
+					<p> Es una celebración 
+					del budismo, en la que 
+					los budistas recuerdan a 
+					el Buda, acudiendo a 
+					templos y haciendo ofrendas.</p>
+				
+		
+		</article>
+		
+		<article class="conejo"> 
+			
+			<img src="imagenes/festivales/medio_otoño.png" alt="conejo en la luna"/>
+			
+			<h2>Festival del Medio Otoño</h2>
+				
+					<p>En la Octava Luna Llena 
+					del año se celebra 
+					la Fiesta de la Luna. 
+					En esta noche, la luna está en su punto más brillante. </p>
+				
+		
+		</article>
+		
+		<article class="form">
+		
+			<h3>Acercate!</h3>
+		
+			<p>Si querés formar parte de la ceremonia de Baño al Buda en este Vesak, 
+			completa tus datos y dinos: 
+			¿Cuales son tus  son tus deseos para 
+			el Buda?</p>
+		</article>
+		
+		<article>
+			
+			
+		<form action="mensaje.php" method="post" enctype="multipart/form-data">
+		<div>	
+				<div>
+					<label for="nombre">Tu nombre:</label>
+					<input type="text" id="nombre" required name="nombre"/>
+				</div>
+				<div>
+					<label for="apellido">Tu apellido:</label> 
+					<input type="text" required id="apellido" required name="apellido"/>
+				</div>
+				
+				<div class="ml">
+					<label for="mail">Tu email:</label> 
+					<input type="email" id="mail" required name="email"/>
+				</div>
+				<div> 
+				Sexo:<input type="radio" name="sexo" value="hombre"/>Hombre
+				<input type="radio" name="sexo" value="mujer"/>Mujer
+				</div>
+				<div>
+					<textarea rows="20" cols="40" name="mensaje" placeholder="tus deseos!"></textarea>
+				</div>
+				<div><label for="confirmacion">Quiero recibir informacion por mail.</label>
+				<input type="checkbox" id="confirmacion" name="confirmacion"/>
+				</div>
+				<div>
+					<input type="submit" value="enviar"/>
+				</div>
+		</div>
+		
+		
+		</form>
+			
+			
+				
+		
+		</article>
+		
+	
+	</section>	
+		
+			
+	
+	<footer> 
+		
+		<h2>Redes</h2>
+		
+			<ul id="redes">
+				<li><a href="">facebook</a></li>
+				<li><a href="">twitter</a></li>
+				<li><a href="">instagram</a></li>
+			</ul>
+			<ul id="links">
+				<li><a href="">trip advisor</a></li>
+				<li><a href="">Buenos Turismo</a></li>
+				<li><a href="">Ciudad de Buenos Aires</a></li>
+			</ul>
+			
+	
+	
+	
+	
+	</footer>
+	</main>
+	
+
+
+
+
+
+
+</body>

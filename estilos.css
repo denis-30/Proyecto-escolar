@@ -1,0 +1,3401 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+ body  {
+	
+		font-family:montserrat;/* helvetica;*/
+	  background-color:#281936;
+	  margin:0;
+	  padding:0;
+	  background-color:silver;
+background-image:
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size: 100px 50px;
+	  /*
+	  background-image:url('imagenes_css/sakura.jpg');*/
+	  background-attachment:fixed;
+     
+	  	  
+	  
+}
+	  
+
+#home main
+	{background-image:url('imagenes_css/dragones2.jpg');
+		
+		background-color:white;
+			
+			width:960px;
+			margin-left:auto;
+			margin-right:auto;
+		
+			}
+
+	  
+#home header {height:650px;
+	  background:url('imagenes_css/banner_index.jpg') no-repeat center;
+	
+	
+	
+}
+	   
+
+	  
+#home header h1 {display: none;}
+
+#home header ul{background-color:#00000069;}
+
+#home header ul li {font-family:helvetica;
+		
+		font-size:20px;
+		color:white;
+		text-decoration:none;
+        display:inline-block;
+		position:relative;
+		padding:5px;
+		margin-top:0;
+		list-style:none;
+		
+}
+		  
+#home header ul li a{
+		color :white;
+		text-decoration:none;
+
+}
+
+#home header ul li a:hover {color:#2F144F;
+
+}
+
+#home ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+
+
+#home nav {width:960px;  
+	margin-top:-16px;
+	  position: -webkit-sticky;
+		position:sticky;
+		z-index:2;
+		top: 0;
+	  
+}   
+
+.menu{
+	background:#1b0e29c7;
+	overflow: auto;
+
+}
+.menu > li{
+	float: left;
+}
+
+.menu a{
+	display: block;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+
+.menu li:first-child a{
+	border-left: none;
+}
+
+.menu ul{
+	height: 0px;
+	overflow: hidden;
+	position: absolute; 
+	transition: all 0.5s;
+}
+
+.menu li:hover ul{
+	height: 340px;
+	
+}
+
+.menu ul a{
+	background:#1b0e29c7;
+	border-left: none;
+	border-top: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 1s ; 
+}
+
+.menu ul a:hover{
+	background:#aa9e49;
+	padding-right: 10px;
+	padding-left: 50px;
+}
+
+.menu li{
+		font-size:30px;
+		padding-left:50px;
+		
+}
+
+#home nav ul li:hover{color:yellow;
+
+
+}
+
+
+#active {color:yellow;}
+		  
+#home section article {height:200px;
+
+}
+
+#home section article:first-of-type p{
+				width:700px;
+				font-size:30px;
+				margin-top:30px;
+				margin-left:80px;
+				padding-top:40px;
+				text-align: center;
+				padding-left:40px;
+				padding-right:40px;
+}
+
+
+
+#home section article:nth-child(2){color:white;
+						text-align:left;
+						height:750px;
+						background:url('imagenes_css/trama2.png')no-repeat;
+						background-size:960px;
+
+			
+}
+
+#home section article:nth-child(2){text-align:}
+
+.cuadrado1 p {
+			font-size:30px;
+			float:left;
+			height:150px;
+			width:400px;
+			margin:20px;
+			margin-left:70px;
+			margin-top:250px;
+			padding-bottom:20px;
+			text-align:right;
+
+}
+
+	
+				
+.entrada {
+		float:right;
+		margin-right:-10px;
+		transition: transform .5s;	
+}
+
+.entrada:hover{
+	transform: scale(1.2);
+}
+
+.img-marco {
+	width:400px;
+    height: 420px;
+    margin-top: 140px;
+	margin-left: 45px;
+    display: inline-block; 
+    overflow: hidden;
+	
+}
+
+
+#home section article:nth-child(3){ 
+			height:400px;
+			width:960px;
+			margin:20px;
+			
+			margin-top:60px;
+			
+			
+	
+	
+	
+}
+
+.sincuadrado1{font-size:30px;
+			display:inline-block;
+			
+			width:400px;
+			margin-top:10px;
+			margin-bottom:20px;
+			
+			text-align:left;
+			
+			margin-left:470px;
+
+ 
+ }
+
+
+
+.niñas {float:left;
+		margin-top:-60px;
+		
+		transition: transform .5s;
+
+}
+
+.niñas:hover{
+	transform: scale(1.2);
+}
+
+.img-marco2{
+	width: 350px;
+    margin-top: -410px;
+    margin-left: 50px;
+    height: 450px;
+    display: inline-block;
+    overflow: hidden;
+	
+}
+
+
+.video {
+	background:url('imagenes_css/marco.png')no-repeat center center,
+	
+			url('imagenes_css/trama2.png')no-repeat;	
+	background-size:960px;
+	height:750px;
+	
+		
+}
+		
+.video iframe{
+			margin-left:220px;
+			margin-top:250px;
+		
+		
+	
+}
+
+#home section article:last-of-type{margin-top:650px;
+						/*background:url('imagenes/china_town.png')no-repeat;*/
+						background-position:bottom;
+						
+						
+}
+
+
+
+
+#home section article:last-of-type p{	font-size:30px;
+							margin-left:50px;
+							margin-right:50px;
+							text-align: center;
+						
+						
+}
+
+#home section article:last-of-type img{margin-left:250px;
+
+
+}
+
+.china{display:none;
+
+}		
+
+
+#home footer{margin-top:200px;
+	background:url('imagenes_css/footer2.png')no-repeat;
+	background-size:960px;
+	height:600px;
+
+
+}
+
+#home footer h2{font-size:30px;
+		color:white;
+		padding-top:320px;
+		padding-left:80px;
+}
+
+#home footer ul:first-of-type{margin-top:-20px;
+					padding-left:70px;
+					
+					font-size: 0;
+					
+	
+
+}
+
+
+
+
+
+#home footer ul:first-of-type li{	
+						list-style: none;
+						display:inline-block;
+						
+
+
+}
+
+#redes li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/redes2.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 10px;
+			background-position:left top;
+			width: 80px;
+			height: 84px;
+	
+
+
+}
+
+#redes li:nth-child(2) a{ background-position:center top;
+
+
+}
+
+#redes li:nth-child(3) a{ background-position:right top;
+
+
+}
+
+#redes li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#redes li:nth-child(2) a:hover{ background-position:center bottom;
+
+
+}
+
+#redes li:nth-child(3) a:hover{ background-position:right bottom;
+
+
+}
+
+#home footer ul:last-of-type{float:right;}
+
+
+#home footer ul:last-of-type li{list-style: none;
+					display:inline-block;
+
+
+}
+
+#links li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/links3.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 30px;
+			background-position:left top;
+			width: 130px;
+			height: 100px;
+	
+
+
+}
+
+#links li:nth-child(2) a{ background-position:-140px top;
+
+
+}
+
+#links li:nth-child(3) a{ background-position: -300px   top;
+
+
+}
+
+#links li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#links li:nth-child(2) a:hover{ background-position:-140px bottom;
+
+
+}
+
+#links li:nth-child(3) a:hover{ background-position:-300px bottom;
+
+
+}
+
+/*-------------festival-----------*/
+
+#fest body  {font-family:montserrat;/* helvetica;*/
+	  background-color:#281936;
+	  margin:0;
+	  padding:0;
+	  
+	  background-color:silver;
+background-image:
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size: 100px 50px;
+	  /*
+	  background-image:url('imagenes_css/sakura.jpg');
+	  background-attachment:fixed;
+      background-size: cover;
+	  position:absolute; */
+	  
+}
+
+#fest header{margin-left:200px;
+    width:960px;
+	background-color:white;
+	background-image:url('imagenes_css/tramaheaderfest3.png');
+	background-size:960px;
+	margin-top:-150px;
+	height:630px;
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+#fest header h1{padding-top:250px;
+		margin-left:50px;
+		font-size:50px;
+		color:white;
+
+
+}
+#fest main{	
+			background-image:url('imagenes_css/dragones2.jpg');
+			background-color:white;
+			margin-top:-80px;
+			padding:0;
+			width:960px;
+			margin-left:200px;
+			margin-right:88px;
+		
+}
+
+
+
+#fest ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+	
+}
+
+
+
+
+#fest nav {  width:960px;
+	margin-top:-16px;
+	margin-left:200px;
+	position:-webkit-sticky;
+	position:sticky;
+	top: 0;
+	z-index:2
+	  
+}   
+
+.menu{
+	background:#1b0e29c7;
+	overflow: auto;
+
+}
+.menu > li{
+	float: left;
+}
+
+.menu a{
+	display: block;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+
+.menu li:first-child a{
+	border-left: none;
+}
+
+.menu ul{
+	height: 0px;
+	overflow: hidden;
+	position: absolute; 
+	transition: all 0.5s;
+}
+
+.menu li:hover ul{
+	height: 340px;
+	
+}
+
+.menu ul a{
+	background:#1b0e29c7;
+	border-left: none;
+	border-top: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 1s ; 
+}
+
+.menu ul a:hover{
+	background:#aa9e49;
+	padding-right: 10px;
+	padding-left: 50px;
+}
+
+.menu li{
+		font-size:30px;
+		padding-left:50px;
+		
+}
+
+#fest nav ul li:hover{color:yellow;
+
+
+}
+ 
+#active {color:yellow;}
+
+.primer{ font-size:20px;
+						text-align:center;
+						margin-top:80px;
+						margin-right:70px;
+						margin-left:70px;
+						padding-top:50px;
+	
+	
+}
+
+#fest article h2{
+		font-size:40px;
+	
+	
+	
+}
+
+.gal h2{margin-left:410px;}
+
+
+#fest section article:nth-child(3){margin-left:70px;}
+
+
+#fest section article:nth-child(3) h2{
+	margin-left:320px;
+	margin-top:-20px;		
+
+}
+
+#fest section article:nth-child(3)	p{
+	width:500px;
+	margin-left:180px;
+	margin-right:70px;
+	text-align:center;
+	font-size:20px;
+}
+
+
+
+#fest form{
+	
+	width:350px;
+	height:550px;
+	margin-left:300px;
+	padding-top:20px;
+	padding-left:40px;
+	background-color:#522e6f4d;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border: 0px hidden #000000;
+
+}
+
+#fest input, textarea{margin-top:5px;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border: 0px hidden #000000;
+
+}
+
+.ml input{margin-left:19px;}
+
+
+
+#fest section article:nth-child(4){margin-left:20px;
+							float:left;
+							
+
+}
+
+
+#fest section article:nth-child(4)h2{margin-right:100px;}
+
+
+#fest section article:nth-child(5){margin-left:500px;
+							float:right;
+							
+							margin-top:-600px;
+							
+
+}
+
+#fest .rueda{
+		text-align:center;
+	
+	
+}
+
+#fest .rueda h2{
+		font-size:30px;
+		margin-left:20px;
+		margin-top:60px;
+		
+		
+	
+	
+}
+
+#fest .rueda p{ 
+	font-size:20px;
+	margin-left:90px;
+	width:300px;
+
+}
+
+#fest .conejo h2{font-size:30px;
+			margin-left:70px;
+			margin-top:-15px;
+			
+
+}
+
+.conejo p{font-size:20px;
+	width:300px;
+		text-align:center;
+		margin-left:100px;
+		
+}
+
+.form{margin-top:800px;
+	margin-left:300px;
+	text-align:center;
+	width:400px;
+	
+
+}
+
+.form h3{font-size:30px;}
+
+
+
+
+#fest article:last-of-type{margin-top:100px;}
+
+
+
+
+#images-box {
+    /* The total width of the image-box, mainly for centering */
+    width: 850px;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+	
+}
+ 
+.image-lightbox img {
+    /* Inherit the width and height from the parent element */
+    width: inherit;
+    height: inherit;
+}
+ 
+.holder {
+    /* The width and height, you can change these */
+    width: 211px;
+    height: 213px;
+    /* Float left, so everything aligns right */
+    float: left;
+    margin: 0 20px 0 0;
+}
+ 
+.image-lightbox {
+    /* Inherit width and height from the .holder */
+    width: inherit;
+    height: inherit;
+    padding: 10px;
+    /* Box shadow */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background: #fff;
+    border-radius: 5px;
+    /* Position absolutely so we can zoom it out later */
+    position: absolute;
+    top: 0;
+    font-family: Arial, sans-serif;
+    /* Transitions to provide some eye candy */
+    -webkit-transition: all ease-in 0.5s;
+    -moz-transition: all ease-in 0.5s;
+    -ms-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+}
+ 
+.image-lightbox span {
+    display: none;
+}
+ 
+.image-lightbox .expand {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ 
+.image-lightbox .close {
+    position: absolute;
+    width: 20px; height: 20px;
+    right: 20px; top: 20px;
+}
+ 
+.image-lightbox .close a {
+    height: auto; width: auto;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    background: #22272c;
+    box-shadow: inset 0px 24px 20px -15px rgba(255, 255, 255, 0.1), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 30px rgba(255,255,255,0.4);
+    border-radius: 5px;
+    font-weight: bold;
+    float: right;
+}
+ 
+.close a:hover {
+   
+   box-shadow: inset 0px -24px 20px -15px rgba(255, 255, 255, 0.01), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 20px rgba(255,255,255,0.4);
+}
+ 
+#fest div[id^=image]:target {
+    
+	width: 423px;
+    height: 427px;
+    z-index: 5000;
+    top: 50px;
+    left: 200px;
+}
+
+
+#fest div[id^=image]:target .close {
+    
+	display: block;
+}
+ 
+ 
+#fest div[id^=image]:target .expand {
+    
+	display: none;
+}
+ 
+div#image-1:target, div#image-2:target, div#image-3:target { left: 200px; }
+ 
+div#image-1 { left: 0; }
+div#image-2 { left: 290px; }
+div#image-3 { left: 580px; }
+
+
+
+#fest footer{margin-top:200px;
+	background:url('imagenes_css/tramafooter.png')no-repeat;
+	background-size:960px;
+	height:400px;
+
+
+}
+
+#fest footer h2{font-size:30px;
+		color:white;
+		padding-top:60px;
+		padding-left:80px;
+}
+
+#fest footer ul:first-of-type{margin-top:-20px;
+					padding-left:70px;
+					
+					font-size: 0;
+					
+	
+
+}
+
+
+#fest footer ul:first-of-type li{	
+						list-style: none;
+						display:inline-block;
+						
+
+
+}
+
+#redes li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/redes2.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 10px;
+			background-position:left top;
+			width: 80px;
+			height: 84px;
+	
+
+
+}
+
+#redes li:nth-child(2) a{ background-position:center top;
+
+
+}
+
+#redes li:nth-child(3) a{ background-position:right top;
+
+
+}
+
+#redes li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#redes li:nth-child(2) a:hover{ background-position:center bottom;
+
+
+}
+
+#redes li:nth-child(3) a:hover{ background-position:right bottom;
+
+
+}
+
+footer ul:last-of-type{float:right;}
+
+
+footer ul:last-of-type li{list-style: none;
+					display:inline-block;
+
+
+}
+
+#links li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/links3.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 30px;
+			background-position:left top;
+			width: 130px;
+			height: 100px;
+	
+
+
+}
+
+#links li:nth-child(2) a{ background-position:-140px top;
+
+
+}
+
+#links li:nth-child(3) a{ background-position: -300px   top;
+
+
+}
+
+#links li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#links li:nth-child(2) a:hover{ background-position:-140px bottom;
+
+
+}
+
+#links li:nth-child(3) a:hover{ background-position:-300px bottom;
+
+
+}
+
+/*------------recorrido------------*/
+
+#ruta {font-family:montserrat;/* helvetica;*/
+	  background-color:#281936;
+	  margin:0;
+	  padding:0;
+	  background-color:silver;
+background-image:
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size: 100px 50px;
+	 /* background-image:url('imagenes_css/sakura.jpg');
+	  background-attachment:fixed;
+      background-size: cover;
+	  position:absolute;*/
+	  	  
+	  
+}
+	  
+#ruta header{margin-left:200px;
+    width:960px;
+	background-color:white;
+	background-image:url('imagenes_css/tramaheader2.png');
+	background-size:960px;
+	margin-top:-50px;
+	height:475px;
+	background-repeat:no-repeat;
+	position:relative;
+
+
+}
+
+#ruta h1{font-size:50px;
+	 color:white;
+		margin-top:auto;
+		margin-left:70px;
+		padding-top:200px;
+
+
+
+
+}
+/**/
+#ruta .bot{
+	
+		width:960px;  
+		margin-top:-16px;
+		
+		position: -webkit-sticky;
+		position:sticky;
+		z-index:2;
+		top: 0;
+	  
+} 
+
+#ruta .bot ul{list-style:none;
+	
+	
+}  
+
+#ruta .menu1{
+	width:920px;
+	
+	margin:0;
+    padding:200;
+	list-style:none;
+	display:inline-block;
+	margin-left:200px;
+	overflow:auto;
+	
+}
+
+#ruta .menu1{
+	background:#1b0e29c7;
+	overflow:auto;
+
+}
+#ruta .menu1 > li{
+	float: left;
+}
+
+#ruta .menu1 a{
+	display: block;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+
+#ruta .menu li:first-child a{
+	border-left: none;
+}
+
+#ruta .menu1 ul{
+	height: 0px;
+	overflow: hidden;
+	position: absolute; 
+	transition: all 0.5s;
+}
+
+#ruta .menu1 li:hover ul{
+	height: 340px;
+	
+}
+
+#ruta .menu1 ul a{
+	background:#1b0e29c7;
+	border-left: none;
+	border-top: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 1s ;
+	width: 197px
+	
+}
+
+#ruta .menu1 ul a:hover{
+	background:#aa9e49;
+	padding-right: 10px;
+	padding-left: 50px;
+}
+
+#ruta .menu1 li{
+		font-size:30px;
+		padding-left:30px;
+		
+		
+}
+
+
+#ruta .menu1 ul li:hover{color:yellow;
+
+
+}
+
+
+#active {color:yellow;}
+
+ 
+	  
+	  
+	  
+#ruta main{background-image:url('imagenes_css/dragonesruta2.jpg');
+	background-color:white;
+	background-position: 0px -74px;
+	margin-top:-80px;
+	padding:0;
+	width:960px;
+	margin-left:200px;
+	margin-right:88px;
+		
+}
+
+#ruta main nav ul li{text-decoration:none;
+		display:inline-block;
+		position:relative;
+		padding-left:50px;
+		list-style:none;
+		
+}
+
+#logosanc li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/logos_anclas.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			/*margin-right: 10px;*/
+			background-position:left top;
+			width: 150px;
+			height: 200px;
+	
+
+
+}
+
+#logosanc li:nth-child(2) a{ background-position:-150px top;
+
+
+}
+
+#logosanc li:nth-child(3) a{ background-position:-300px top;
+
+
+}
+
+#logosanc li:nth-child(4) a{ background-position:-450px top;
+
+
+}
+
+#logosanc li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#logosanc li:nth-child(2) a:hover{
+			background-position:-150px bottom;
+
+
+}
+
+#logosanc li:nth-child(3) a:hover{ 
+			background-position:-300px bottom;
+
+
+}
+
+#logosanc li:nth-child(4) a:hover{ 
+			background-position:-450px bottom;
+
+
+}
+
+
+
+#ruta h2{text-align:center;
+	font-size:40px;
+	padding-top:80px;
+
+
+
+}
+
+
+
+#ruta p{
+	text-align:center;
+	margin-top:100;
+	width:600px;
+	margin-left:200px;
+
+
+
+}
+
+#ruta .foto1{ 
+		margin-top:20px;
+		margin-left:130px;
+		margin-top: -100px;
+
+
+}
+
+
+#ruta article h2 h3 img:last-of-type{
+							display:inline-block;
+							float:left;
+							margin-left:80px;
+							
+	
+	
+}
+
+.sushi{
+		display:inline-block;
+		float:left;
+		margin-left:50px;
+		margin-left: 500px;
+		margin-top: -167px;	
+	
+	
+}
+
+#ruta h3:first-of-type{
+				font-size:30px;
+				float:right;
+				width:250px;
+				margin-right:200px
+			
+
+}
+
+#ruta article:nth-child(3) h2{
+	margin-top: 3px;
+}
+
+.ver{
+	background:url('imagenes_css/boton2.png');
+	background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100px;
+    height: 100px;
+    padding: 50px 70px 30px;
+    margin-left: 500px;
+    text-decoration: none;
+
+}
+
+.ver3bis{
+	margin-left: 50px;
+    text-decoration: none;
+}
+
+.modal-contenido{
+  background-color:#f3ddf6d1;
+  width:500px;
+  padding: 10px 20px;
+  margin:200px auto;
+  position: relative;
+}
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+}
+
+#ruta h4{
+	font-size:20px;
+	margin-left:30px;
+
+}
+
+#nk h4 {
+	
+	margin-left:130px;
+	
+	
+}
+
+#nk  p{width:300px;
+	margin-right:100px;
+margin-left:100px;
+}
+
+
+#nikkei:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#china:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#thai:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#chi h4 {
+	
+	margin-left:130px;
+}
+
+#chi  p{
+	width:300px;
+	margin-right:100px;
+margin-left:100px;
+}
+
+
+
+.ch{
+	font-size:30px;
+	margin-bottom:-100px;
+	margin-top:50px;
+	margin-left:260px;
+
+}
+
+#ruta .ver2{
+	background: url(imagenes_css/boton2.png);
+    background-repeat: no-repeat;
+    background-position: -1px -0px;
+    width: 200px;
+    height: 130px;
+    margin-left: 260px;
+    margin-top: 110px;
+    margin-bottom: -270px;
+    padding: 40px;
+    margin-right: 60px;
+
+}
+
+#ruta .ver2bis{
+	text-decoration: none;
+    text-align: center;
+    height: 100px;
+    margin-right: -50px
+}
+
+#tai h4 {
+	
+	margin-left:180px;
+}
+
+#tai  p{
+	width:300px;
+	margin-right:100px;
+	margin-left:100px;
+}
+
+.th{
+	font-size: 30px;
+    float: right;
+    width: 250px;
+    margin-top: 50px;
+    margin-right: 200px;
+	
+	
+}
+
+
+
+.foto2{
+		margin-left:130px;
+		margin-top:-80px;
+		margin-right:15px;
+	
+	
+}
+
+.foto3{
+		margin-top:20px;
+		margin-left:130px;
+		margin-top: -150px;
+	
+	
+}
+
+
+
+.ens{
+	float: right;
+	margin-top: 35px;
+	margin-right: 110px;
+	
+	
+}
+
+.ver3{
+	width: 300px;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    background: url(imagenes_css/boton2.png);
+    background-repeat: no-repeat;
+    background-position: 20px;
+	
+}
+
+#ruta section article h2 img:nth-child(2){
+							float:right;
+	
+	
+}
+
+
+
+.art{
+	margin-top:100px;
+	
+	
+	
+}
+
+.art p{
+		margin-top:100px;
+	
+	
+	
+}
+
+.art img{
+		margin-top:50px;
+
+
+}
+
+.art img:first-of-type{
+						margin-left:155px;
+						margin-right:15px;
+
+
+}
+
+.regalos img{
+		margin-left:110px;
+		margin-top:60px;
+
+
+}
+
+.regalos p{
+	
+	margin-top:80px;
+
+}
+
+
+
+#ruta section article:last-of-type h2{
+		margin-top: 44px;
+
+
+}
+
+#ruta section article:last-of-type img{
+							margin-left:180px;
+							margin-top:37px;
+
+
+}
+
+#ruta section article:last-of-type p{
+	
+		margin-top:60px;
+	
+	
+}
+
+
+
+#ruta footer h3:last-of-type{
+				font-size:30px;
+				float:left;
+				display:inline-block;
+				width:250px;
+				margin-top:80px;
+				margin-left:50px;
+				
+				margin-bottom:20px;
+				color:white;
+				
+
+
+}
+
+#ruta footer{
+	margin-top:100px;
+}
+
+#ruta footer{
+	margin-top:200px;
+	background:url('imagenes_css/tramafooter.png')no-repeat;
+	background-size:960px;
+	height:400px;
+
+
+}
+
+
+
+#ruta footer ul{
+		color:white;
+		width:200px;
+		margin-right:700px;
+	
+	
+}
+
+
+
+/*------------info--------------*/
+
+
+#info  {
+		font-family:montserrat;/* helvetica;*/
+	  background-color:#281936;
+	  margin:0;
+	  padding:0;
+	  background-color:silver;
+background-image:
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size: 100px 50px;
+	  
+	
+}
+	  
+#info header{
+	margin-left:200px;
+    width:960px;
+	background-color:white;
+	background-image:url('imagenes_css/tramaheader2.png');
+	background-size:960px;
+	margin-top:-70px;
+	height:475px;
+	background-repeat:no-repeat;
+	position:absolute;
+
+
+}
+
+#info h1{
+		font-size:50px;
+		color:white;
+		margin-top:200px;
+		margin-left:70px;
+
+
+
+
+}
+	  
+
+
+#info nav {
+		width:960px;
+		margin-left:200px;
+		margin-top:-16px;
+		position: -webkit-sticky;
+		position:sticky;
+		z-index:2;
+		top: 0;
+	  
+}   
+
+#info nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu{
+	background:#1b0e29c7;
+	overflow: auto;
+
+}
+.menu > li{
+	float: left;
+}
+
+.menu a{
+	display: block;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+
+.menu li:first-child a{
+	border-left: none;
+}
+
+.menu ul{
+	height: 0px;
+	overflow: hidden;
+	position: absolute; 
+	transition: all 0.5s;
+}
+
+.menu li:hover ul{
+	height: 340px;
+	
+}
+
+.menu ul a{
+	background:#1b0e29c7;
+	border-left: none;
+	border-top: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 1s ; 
+}
+
+.menu ul a:hover{
+	background:#aa9e49;
+	padding-right: 10px;
+	padding-left: 50px;
+}
+
+.menu li{
+		font-size:30px;
+		padding-left:50px;
+		
+}
+
+#info nav ul li:hover{color:yellow;
+
+
+}
+
+#active {color:yellow;}  
+	  
+	  
+	  
+#info main{
+	background-image:
+					url('imagenes_css/dragones2.jpg');
+	background-color:white;
+	margin-top:400px;
+	padding:0;
+	width:960px;
+	margin-left:auto;
+	margin-right:88px;
+	margin-left:200px;
+	position:relative;
+			
+		
+		
+}
+
+
+#info aside{
+	float: right;
+    height: 750px;
+    margin-right: 70px;
+    background-color: #6747785c;
+	padding:10px;
+}
+
+#info aside h2{
+	text-align:center;
+}
+
+#info aside .calendario{
+	margin-left:25px;
+}
+.ui-datepicker-title{
+	background-color:#e6cbef;
+}
+
+.ui-datepicker {
+	background-color:#e6cbef;
+}
+
+.ui-corner-all{
+	
+	background-color:#e6cbef;
+}
+
+.ui-datepicker-title{
+	width:195px;
+	margin-right:2px;
+	margin-left:2px;
+	-webkit-border-radius: 05px;
+	-moz-border-radius: 05px;
+	border-radius: 05px;
+	
+}
+
+.ui-state-default{
+	background-color:#e6cbef;
+} 
+
+.ui-widget-content{
+	background-color:#e6cbef;
+}
+@keyframes rotar{
+	0%{
+		left: -140px;
+	}
+	5%{
+		left: 0px;
+	}
+	33.33%{
+		left: 0px;
+	}
+	40%{
+	left: 140px;
+	}
+	
+	100%{
+		left: 140px;
+	}
+}
+#info #banner img:nth-child(1){ animation-delay: 0s}
+#info #banner img:nth-child(2){ animation-delay: 2s}
+#info #banner img:nth-child(3){ animation-delay: 4s}
+
+#banner{
+	overflow: hidden;
+	margin-left:100px;
+	margin-top: 20px;
+	height: 350px;
+	width: 130px;
+	position: relative;
+}
+#banner img{
+	position:absolute;
+	left: -140px;
+	animation: rotar 6s infinite running;
+}
+#infi #banner:hover img{
+	animation-play-state: paused
+}
+
+
+#info section article:first-of-type{width:400px;
+						margin-left:70px;
+	
+	
+}
+
+#info section article:nth-child(2){width:400px;
+						margin-left:70px;
+	
+}
+
+
+#info section article:last-of-type{
+		margin-top:100px;
+		padding-top:200px;
+		padding-bottom:100px;
+		background-image:url('imagenes_css/marcovioleta.png');
+		background-repeat:no-repeat;
+		background-position:center 40px;
+		
+	
+	
+}
+
+#info iframe{margin-left:180px;
+	
+
+}
+
+
+#info footer{margin-top:200px;
+	background:url('imagenes_css/tramafooter.png')no-repeat;
+	background-size:960px;
+	height:400px;
+
+
+}
+
+#info footer h2{font-size:30px;
+		color:white;
+		padding-top:60px;
+		padding-left:80px;
+}
+
+#info footer ul:first-of-type{margin-top:-20px;
+					padding-left:70px;
+					
+					font-size: 0;
+					
+	
+
+}
+
+
+#info footer ul:first-of-type li{	
+						list-style: none;
+						display:inline-block;
+						
+
+
+}
+
+#redes li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/redes2.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 10px;
+			background-position:left top;
+			width: 80px;
+			height: 84px;
+	
+
+
+}
+
+#redes li:nth-child(2) a{ background-position:center top;
+
+
+}
+
+#redes li:nth-child(3) a{ background-position:right top;
+
+
+}
+
+#redes li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#redes li:nth-child(2) a:hover{ background-position:center bottom;
+
+
+}
+
+#redes li:nth-child(3) a:hover{ background-position:right bottom;
+
+
+}
+
+#info footer ul:last-of-type{float:right;}
+
+
+#info footer ul:last-of-type li{list-style: none;
+					display:inline-block;
+
+
+}
+
+#links li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/links3.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 30px;
+			background-position:left top;
+			width: 130px;
+			height: 100px;
+	
+
+
+}
+
+#links li:nth-child(2) a{ background-position:-140px top;
+
+
+}
+
+#links li:nth-child(3) a{ background-position: -300px   top;
+
+
+}
+
+#links li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#links li:nth-child(2) a:hover{ background-position:-140px bottom;
+
+
+}
+
+#links li:nth-child(3) a:hover{ background-position:-300px bottom;
+
+
+}
+
+/*------------------recetas-----------------------*/
+
+#recetas{font-family:montserrat;/* helvetica;*/
+	  background-color:#281936;
+	  margin:0;
+	  padding:0;
+	   background-color:silver;
+background-image:
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size: 100px 50px;
+	 
+	  /*background-image:url('imagenes_css/sakura.jpg');
+	  background-attachment:fixed;
+      background-size: cover;
+	  position:absolute;*/
+	  	  
+}
+
+#recetas  header{margin-left:200px;
+    width:960px;
+	background-color:white;
+	background-image:url('imagenes_css/tramaheader2.png');
+	background-size:960px;
+	margin-top:-70px;
+	height:475px;
+	background-repeat:no-repeat;
+	position:absolute;
+
+
+}
+
+#recetas nav {width:960px;
+	margin-left:200px;
+	margin-top:-16px;
+	  position: -webkit-sticky;
+		position:sticky;
+		z-index:2;
+		top: 0;
+	  
+}   
+
+#recetas nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu2{
+	background:#1b0e29c7;
+	overflow: auto;
+
+}
+
+.menu2 > li{
+	float: left;
+}
+
+.menu2 a{
+	display: block;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+
+.menu2 li:first-child a{
+	border-left: none;
+}
+
+.menu2 ul{
+	height: 0px;
+	overflow: hidden;
+	position: absolute; 
+	transition: all 0.5s;
+}
+
+.menu2 li:hover ul{
+	height: 340px;
+	
+}
+
+.menu2 ul a{
+	background:#1b0e29c7;
+	border-left: none;
+	border-top: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 1s ; 
+}
+
+.menu2 ul a:hover{
+	background:#aa9e49;
+	padding-right: 10px;
+	padding-left: 50px;
+}
+
+.menu2 li{
+		font-size:30px;
+		padding-left:50px;
+		
+}
+
+#recetas nav ul li:hover{color:yellow;
+
+
+}
+
+#active {color:yellow;}  
+	  
+	  
+
+
+#recetas  h1{font-size:50px;
+	 color:white;
+		margin-top:250px;
+		margin-left:75px;
+
+}
+
+#recetas  main{background-image:
+					url('imagenes_css/dragones2.jpg');
+	background-color:white;
+	margin-top:400px;
+	padding:0;
+	width:960px;
+	margin-left:auto;
+	
+	margin-right:88px;
+	margin-left:200px;
+	position:relative;	
+		
+}
+
+
+#recetas h2{ text-align:center;
+		font-size:30px;
+	
+	
+}
+
+#recetas article:first-of-type p{
+	text-align:center;
+	margin-left:100px;
+	margin-right:100px;
+	
+}
+
+
+
+.chs p{text-align:left;
+	float:right;
+	display:inline-block;
+	width:400px;
+	margin-left:250px;
+	margin-right:40px;
+	margin-top:-250px;
+
+	
+}
+
+
+#recetas h3{font-size:30px;
+
+
+}
+
+#recetas .chs h3{
+	float:right;
+	margin-right:280px;
+	margin-top: 70px;
+
+	
+}
+
+#recetas .chs img{
+	float:left;
+	display:inline-block;
+	/*margin-top: 50px;
+	margin-left:90px;*/
+	
+	
+}
+
+#recetas .modal-contenido {
+    background-color: #f3ddf6d1;
+    width: 500px;
+	height:300px;
+    padding: 10px 20px;
+    margin: 200px auto;
+    position: relative;
+
+}
+
+
+
+#recetas .ver4 a{
+	text-decoration:none;
+	text-align:center;
+	width:180px;
+	height:80px;
+	float:left;
+	display:inline-block;
+	margin-left:550px;
+	margin-top:-100px;
+	margin-bottom:10px;
+	color:#4B1A80;
+	padding:10px;
+	
+}
+
+#recetas .modal-contenido p{
+
+	margin-top:70px;
+	
+}
+
+#recetas .img-marco3{
+	width:390px;
+	height:368px;
+	overflow: hidden;
+	margin-left:90px;
+	
+}
+
+#recetas .chop{
+	
+	transition: transform .5s;
+}
+
+#recetas .chop:hover{
+	
+	transform: scale(1.2);
+}
+
+#recetas .chop h4{
+	
+	text-align:center;
+}
+
+
+
+
+#recetas .wt h3{
+	margin-top:20px;
+	float:left;
+	display:inline-block;
+	margin-left:280px;
+	
+}
+
+#recetas .wt img{ 
+		float:right;
+		display:inline-block;
+		/*margin-right:50px;*/
+		
+	
+	
+	
+}
+
+.wt p:first-of-type {
+		text-align:right;
+		float:left;
+		width:250px;
+		margin-left:230px;
+		margin-top: -280px;
+	
+}
+
+
+#wan h4{
+	
+	text-align:center;
+}
+
+#recetas #wanp{
+	text-align:center;
+	margin-right:50px;
+	margin-top: -05px;
+    margin-left: 80px;
+    width: 350px;
+}
+
+#recetas .img-marco4{
+	width:390px;
+	height:368px;
+	overflow: hidden;
+	margin-left: 530px;
+	
+}
+
+#recetas .wantan{
+	
+	transition: transform .5s;
+}
+
+#recetas .wantan:hover{
+	
+	transform: scale(1.2);
+}
+
+#roll h4{
+	text-align:center;
+}
+
+#recetas #roll p{
+	text-align:center;
+	margin-top: -05px;
+    margin-right: 120px;
+}
+
+#recetas #roll p:last-of-type{
+	margin-top: -200px;
+}
+
+#recetas .img-marco5{
+	float: left;
+    display: inline-block;
+    width: 390px;
+    height: 368px;
+    overflow: hidden;
+    margin-left: -645px;
+    margin-right: 71px;
+    margin-top: 33px;
+	
+}
+
+#recetas .rolls{
+	
+	transition: transform .5s;
+}
+
+#recetas .rolls:hover{
+	
+	transform: scale(1.2);
+}
+
+#recetas #kung h4{
+	text-align:center;
+}
+#recetas #kung p{
+	text-align:center;
+	margin-top: -05px;
+    margin-right: 120px;
+	margin-left:130px;
+	
+}
+
+
+#recetas .ver5 a{
+	text-align: center;
+	text-decoration:none;
+	width:180px;
+	height:70px;
+	float:left;
+	display:inline-block;
+	margin-left:300px;
+	margin-bottom:100px;
+	color:#4B1A80;
+	padding: 10px;
+	margin-top: -70px;
+}
+
+#chop:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#wan:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#roll:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#chao:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#kung:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+
+#recetas .rl h3{
+	float: left;
+    display: inline-block;
+    width: 200px;
+    margin-top: 42px;
+    margin-left: 37px;
+		/*margin-top: 500px;
+		margin-left: 520px;*/
+	
+}
+
+#recetas .rl p {
+	text-align: left;
+    float: right;
+    height: 250px;
+    width: 250px;
+    margin-right: 164px;
+    margin-top: -285px;
+
+}
+
+#recetas .rl img{ 
+		float:left;
+		display:inline-block;
+		/*margin-left:90px;*/
+		/*margin-top:-109px;
+		margin-left: 97px*/
+
+}
+
+#recetas .ver6 a{
+	text-decoration:none;
+	text-align:center;
+	width:180px;
+	height:90px;
+	float:right;
+	display:inline-block;
+	margin-left: 303px;
+    margin-right: 225px;
+    margin-top: -110px;
+	padding:10px;
+	color:#4B1A80;
+	
+}
+
+#recetas .img-marco6{
+	float: right;
+    width: 390px;
+    height: 368px;
+    overflow: hidden;
+    margin-right: 36px;
+	
+}
+
+#recetas .pollo{
+	
+	transition: transform .5s;
+}
+
+#recetas .pollo:hover{
+	
+	transform: scale(1.2);
+}
+
+
+
+#recetas .pk img{ 
+		float:right;
+		display:inline-block;
+		/*margin-right:50px;*/
+
+	
+}
+
+#recetas .pk p{
+		text-align:right;
+		width:250px;
+		float:left;
+		display:inline-block;
+        margin-left: 230px;
+	
+}
+
+#recetas .pk h3{
+		float:left;
+		display:inline-block;
+		margin-left:260px;
+		margin-right:-80px;
+	
+}
+
+#recetas .ver7 a{
+	text-align: center;
+    text-decoration: none;
+    width: 180px;
+    height: 80px;
+    display: inline-block;
+    /* margin-top: 300px; */
+    color: #4B1A80;
+    margin-left: -419px;
+    padding: 10px;
+    margin-top: 693px;
+}
+
+#recetas .boton{
+	background:url('imagenes_css/boton2.png')no-repeat;
+	background-position:0px -25px;
+	
+}
+
+#recetas .img-marco7{
+	width: 390px;
+    height: 368px;
+    overflow: hidden;
+    margin-left: 81px;
+    margin-top: 0px;
+    
+	
+}
+
+#recetas .mien{
+	
+	transition: transform .5s;
+}
+
+#recetas .mien:hover{
+	
+	transform: scale(1.2);
+}
+
+
+#recetas .cm p{
+	width: 250px;
+    float: right;
+    margin-top: -250px;
+    margin-left: 300px;
+    margin-right: 173px;
+	
+}
+
+#recetas .cm img{ 
+	float: left;
+    display: inline-block;
+    margin-left: 90px;
+    /* margin-top: -100px; */
+    margin-right: -112px;
+    margin-left: 2px;
+    margin-top: -4px;
+}
+
+#recetas .cm h3{
+	float: right;
+    display: inline-block;
+    margin-right: 267px;
+    margin-left: -13px;
+	
+}
+
+#recetas .ver8 a{
+	text-decoration: none;
+    text-align: center;
+    width: 180px;
+    height: 70px;
+    float: right;
+    margin-right: 235px;
+    margin-top: -80px;
+    color: #4B1A80;
+    padding: 10px;
+}
+
+#recetas article:last-of-type h2{
+	
+			font-size:20px;
+			margin-bottom:50px;
+			margin-right:370px;
+}
+
+#recetas article:last-of-type ul{ 
+	list-style:none;
+	margin-left:70px;
+	
+	
+}
+
+#recetas article:last-of-type ul li{
+		
+		
+		margin-top:20px;
+	
+}
+
+#recetas ul li a {
+	
+	text-decoration:none;
+}
+
+
+#recetas article:last-of-type{
+			margin-top:81px;
+	
+}
+
+
+
+#recetas footer{
+	margin-top:200px;
+	background:url('imagenes_css/tramafooter.png')no-repeat;
+	background-size:960px;
+	height:400px;
+
+
+}
+
+#recetas footer h2{
+		font-size:30px;
+		color:white;
+		padding-top:60px;
+		padding-left:80px;
+}
+
+#recetas footer ul:first-of-type{
+					margin-top:-20px;
+					padding-left:70px;
+					font-size: 0;
+					
+	
+
+}
+
+
+#recetas footer ul:first-of-type li{	
+						list-style: none;
+						display:inline-block;
+						
+
+
+}
+
+#recetas footer ul li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/redes2.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 10px;
+			background-position:left top;
+			width: 80px;
+			height: 84px;
+	
+
+
+}
+
+#redes li:nth-child(2) a{ background-position:center top;
+
+
+}
+
+#redes li:nth-child(3) a{ background-position:right top;
+
+
+}
+
+#redes li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#redes li:nth-child(2) a:hover{ background-position:center bottom;
+
+
+}
+
+#redes li:nth-child(3) a:hover{ background-position:right bottom;
+
+
+}
+
+#recetas footer h2{
+	
+	margin-right:800px;
+}
+
+#recetas footer ul:last-of-type{float:right;}
+
+
+#recetas footer ul:last-of-type li{list-style: none;
+					display:inline-block;
+
+
+}
+
+#recetas #links li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/links3.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 30px;
+			background-position:left top;
+			width: 130px;
+			height: 100px;
+	
+
+
+}
+
+#recetas #links li:nth-child(2) a{ background-position:-140px top;
+
+
+}
+
+#recetas #links li:nth-child(3) a{ background-position: -300px   top;
+
+
+}
+
+#recetas #links li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#recetas #links li:nth-child(2) a:hover{ background-position:-140px bottom;
+
+
+}
+
+#recetas #links li:nth-child(3) a:hover{ background-position:-300px bottom;
+
+
+}
+
+/*--------------zoodiaco---------------*/
+
+#zoo{font-family:montserrat;/* helvetica;*/
+	  background-color:#281936;
+	  margin:0;
+	  padding:0;
+	   background-color:silver;
+background-image:
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size: 100px 50px;
+	 
+	 
+	  	  
+}
+
+#zoo header{margin-left:200px;
+    width:960px;
+	background-color:white;
+	background-image:url('imagenes_css/tramaheader2.png');
+	background-size:960px;
+	margin-top:-70px;
+	height:475px;
+	background-repeat:no-repeat;
+	position:absolute;
+
+
+}
+
+
+
+#zoo nav {width:960px;
+	margin-left:200px;
+	margin-top:-16px;
+	  position: -webkit-sticky;
+		position:sticky;
+		z-index:2;
+		top: 0;
+	  
+}   
+
+#zoo nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu3{
+	background:#1b0e29c7;
+	overflow: auto;
+
+}
+
+.menu3 > li{
+	float: left;
+}
+
+.menu3 a{
+	display: block;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+
+.menu3 li:first-child a{
+	border-left: none;
+}
+
+.menu3 ul{
+	height: 0px;
+	overflow: hidden;
+	position: absolute; 
+	transition: all 0.5s;
+}
+
+.menu3 li:hover ul{
+	height: 340px;
+	
+}
+
+.menu3 ul a{
+	background:#1b0e29c7;
+	border-left: none;
+	border-top: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 1s ; 
+}
+
+.menu3 ul a:hover{
+	background:#aa9e49;
+	padding-right: 10px;
+	padding-left: 50px;
+}
+
+.menu3 li{
+		font-size:30px;
+		padding-left:50px;
+		
+}
+
+#zoo nav ul li:hover{color:yellow;
+
+
+}
+
+
+	  
+	  
+
+
+#zoo  h1{font-size:50px;
+	 color:white;
+		margin-top:250px;
+		margin-left:75px;
+
+}
+
+#zoo  main{background-image:
+					url('imagenes_css/zodiaco_fondo4.jpg');
+	background-color:white;
+	background-size:960px;
+	background-position:top;
+	margin-top:400px;
+	padding:0;
+	width:960px;
+	margin-left:auto;
+	
+	margin-right:88px;
+	margin-left:200px;
+	position:relative;
+		
+}
+
+#zoo p{
+	text-align:center;
+}
+
+#zoo h2{
+	font-size:30px;
+	text-align:center;
+}
+
+#zoo p{
+	font-size:20px;
+	margin-left:200px;
+	margin-right:200px;
+	
+}
+
+#zoo #signos ul li .todo{
+			
+			background-image:url('imagenes_css/animales.png');
+			text-decoration:none;
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+
+			margin-right: 10px;
+			background-position:left top;
+			width:158px;
+			height:104px;
+}
+
+#zoo h3{
+	font-size:20px;
+	text-align:center;
+}
+
+
+
+#zoo .modal-contenido{
+  background-color:#f3ddf6d1;
+  width:300px;
+  padding: 10px 20px;
+  margin:200px auto;
+  position: relative;
+}
+#zoo.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+}
+
+#zoo h4{font-size:20px;
+	margin-left:30px;
+	
+
+}
+#zoo .modal-contenido p{width:300px;
+	margin-right:100px;
+margin-left:5px;
+}
+#rata:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#buey:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#tigre:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#conejo:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#dragon:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#serpiente:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#caballo:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#cabra:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#mono:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#perro:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#gallo:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#chancho:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+#zoo #signos {
+	height:300px;
+}
+
+#zoo #signos{
+	list-style: none;
+	display:inline-block;
+}
+#zoo #signos #uno li {
+	list-style: none;
+	float:left;
+	margin-left:50px;
+	margin-bottom:50px;
+}
+
+#zoo #signos #dos li {
+	list-style: none;
+	float:left;
+	margin-left:50px;
+	margin-bottom:50px;
+}
+
+#zoo #signos #tres li {
+	list-style: none;
+	float:left;
+	margin-left:50px;
+	margin-bottom:50px;
+}
+
+
+
+#zoo #uno li:nth-child(2) .todo{ 
+		background-position:-150px top;
+
+
+}
+
+#zoo #uno li:nth-child(3) .todo{ 
+		background-position:-320px top;
+
+
+}
+
+#zoo #uno li:nth-child(4) .todo{ 
+		background-position:-470px top;
+
+
+}
+
+#zoo #dos li:nth-child(1) .todo{ 
+		background-position:0px center;
+
+
+}
+#zoo #dos li:nth-child(2) .todo{ 
+		background-position: -151px center;
+}
+
+}
+
+#zoo #dos li:nth-child(3) .todo{ 
+		background-position:-320px center;
+
+
+}
+
+#zoo #dos li:nth-child(4) .todo{ 
+		background-position: -471px center;
+
+}
+
+#zoo #tres li:nth-child(1) .todo{ 
+		background-position:0px bottom;
+
+
+}
+#zoo #tres li:nth-child(2) .todo{ 
+		background-position:-160px bottom;
+
+
+}
+
+#zoo #tres li:nth-child(3) .todo{ 
+		background-position:-330px bottom;
+
+
+}
+
+#zoo #tres li:nth-child(4) .todo{ 
+		background-position: -472px bottom;
+
+}
+
+#zoo article:nth-child(4) {
+	
+	margin-top:385px;
+	margin-left:95px;
+}
+
+#zoo article:nth-child(4) h2{
+	
+	display:none;
+}
+
+#zoo article:nth-child(4) p{
+	width:400px;
+	font-family:'Indie Flower', cursive;
+	
+	
+}
+
+#zoo article:nth-child(5) {
+	
+	margin-top:150px;
+	
+}
+
+#zoo article:last-of-type h2{
+	margin-top: 200px;
+}
+
+
+
+#zoo footer{
+	margin-top: 67px;
+	background:url('imagenes_css/tramafooter.png')no-repeat;
+	background-size:960px;
+	height:400px;
+
+
+}
+
+
+#zoo footer h2{
+		font-size:30px;
+		color:white;
+		padding-top:60px;
+		padding-left:80px;
+}
+
+#zoo footer ul:first-of-type{
+					margin-top:-20px;
+					padding-left:70px;
+					font-size: 0;
+					
+	
+
+}
+
+
+#zoo footer ul:first-of-type li{	
+						list-style: none;
+						display:inline-block;
+						
+
+
+}
+
+#zoo footer ul li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/redes2.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 10px;
+			background-position:left top;
+			width: 80px;
+			height: 84px;
+	
+
+
+}
+
+#redes li:nth-child(2) a{ background-position:center top;
+
+
+}
+
+#redes li:nth-child(3) a{ background-position:right top;
+
+
+}
+
+#redes li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#redes li:nth-child(2) a:hover{ background-position:center bottom;
+
+
+}
+
+#redes li:nth-child(3) a:hover{ background-position:right bottom;
+
+
+}
+
+#zoo footer h2{
+	
+	margin-right:800px;
+}
+
+#zoo footer ul:last-of-type{float:right;}
+
+
+#zoo footer ul:last-of-type li{list-style: none;
+					display:inline-block;
+
+
+}
+
+#zoo #links li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/links3.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 30px;
+			background-position:left top;
+			width: 130px;
+			height: 100px;
+	
+
+
+}
+
+#zoo #links li:nth-child(2) a{ background-position:-140px top;
+
+
+}
+
+#zoo #links li:nth-child(3) a{ background-position: -300px   top;
+
+
+}
+
+#zoo #links li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#zoo #links li:nth-child(2) a:hover{ background-position:-140px bottom;
+
+
+}
+
+#zoo #links li:nth-child(3) a:hover{ background-position:-300px bottom;
+
+
+}
+
+/*----------------simbolos-------------*/
+
+#arte header{margin-left:200px;
+    width:960px;
+	background-color:white;
+	background-image:url('imagenes_css/tramaheader2.png');
+	background-size:960px;
+	margin-top:-70px;
+	height:475px;
+	background-repeat:no-repeat;
+	position:absolute;
+
+
+}
+
+#arte  h1{font-size:50px;
+	 color:white;
+		margin-top:250px;
+		margin-left:75px;
+
+}
+
+#arte  main{background-image:
+					url('imagenes_css/arte-fondo.jpg');
+	background-color:white;
+	background-size:960px;
+	background-position:top;
+	
+	margin-top:385px;
+	padding:0;
+	width:960px;
+	margin-left:auto;
+	margin-right:88px;
+	margin-left:200px;
+	position:relative;
+		
+}
+
+#arte aside{
+	float:right;
+	display:inline-block;
+	background-color:#b4a74f87;
+	width:200px;
+	padding:20px;
+	margin-right:40px;
+	
+}
+
+#arte aside img{
+	margin:10px;
+	margin-left:40px;
+}
+
+#arte aside h2{
+	margin-left:12px;
+}
+#arte p{
+	font-size:20px;
+	text-align:center;
+}
+
+
+#arte article:first-of-type p{
+	margin-left:70px;
+	margin-right:70px;
+}
+
+#arte article:nth-child(2) p:first-of-type{
+	width: 355px;
+    margin-top: 80px;
+    margin-left: 191px;
+    margin-right: 70px;
+}
+
+#arte article:nth-child(2) p:last-of-type{
+	width: 600px;
+    margin-left: 71px;
+}	
+
+
+#arte article:nth-child(2) h2{
+	font-size: 42px;
+    margin-top: 190px;
+    margin-left: 331px;
+    color: white;
+	
+}
+
+#arte article:nth-child(2) h3{
+	margin-top: -11px;
+    margin-left: 339px;
+    color: white;
+}
+
+#arte article:nth-child(3) p{
+	width:300px;
+	margin-left:221px;
+}
+
+#arte article:nth-child(3) h2{
+	    margin-left: 309px;
+		margin-top: 75px;
+} 
+
+#arte footer{
+	margin-top:37px;
+	background:url('imagenes_css/tramafooter.png')no-repeat;
+	background-size:960px;
+	height:400px;
+
+
+}
+
+
+#arte footer h2{
+		font-size:30px;
+		color:white;
+		padding-top:60px;
+		padding-left:80px;
+}
+
+#arte footer ul:first-of-type{
+					margin-top:-20px;
+					padding-left:70px;
+					font-size: 0;
+
+}
+
+
+#arte footer ul:first-of-type li{	
+						list-style: none;
+						display:inline-block;
+						
+
+
+}
+
+#arte footer ul li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/redes2.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 10px;
+			background-position:left top;
+			width: 80px;
+			height: 84px;
+}
+
+#redes li:nth-child(2) a{ background-position:center top;
+
+
+}
+
+#redes li:nth-child(3) a{ background-position:right top;
+
+
+}
+
+#redes li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#redes li:nth-child(2) a:hover{ background-position:center bottom;
+
+
+}
+
+#redes li:nth-child(3) a:hover{ background-position:right bottom;
+
+
+}
+
+#arte footer h2{
+	
+	margin-right:800px;
+}
+
+#arte footer ul:last-of-type{float:right;}
+
+
+#arte footer ul:last-of-type li{list-style: none;
+					display:inline-block;
+
+
+}
+
+#arte #links li a{	
+			text-decoration: none;
+			background-image: url('imagenes_css/links3.png');
+			display: inline-block;
+			background-repeat: no-repeat;
+			font-size: 0px;
+			margin-right: 30px;
+			background-position:left top;
+			width: 130px;
+			height: 100px;
+	
+
+
+}
+
+#arte #links li:nth-child(2) a{ background-position:-140px top;
+
+
+}
+
+#arte #links li:nth-child(3) a{ background-position: -300px   top;
+
+
+}
+
+#arte #links li:nth-child(1) a:hover{ background-position:left bottom;
+
+
+}
+
+
+#arte #links li:nth-child(2) a:hover{ background-position:-140px bottom;
+
+
+}
+
+#arte #links li:nth-child(3) a:hover{ background-position:-300px bottom;
+
+
+}
+/*-------------gracias------------*/
+
+#gracias main{margin-left:280px;
+	margin-top:100px;
+    width:960px;
+	height:500px;
+	background-color:white;
+	text-align:center;
+	
+}
+
+
+
+
+
+
+		
+		
+		
